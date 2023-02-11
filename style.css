@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(229, 6%, 66%);
+    font-size: 15px;
+}
+.card {
+    box-shadow: 5px 5px 5px 5px #e2e9f1;
+    padding: 25px;
+    border-radius: 7px;
+    border-top: 5px solid;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-1 {
+    font-size: 24px;
+    font-weight: 200;
+    color: #a2a0ab;
+}
+
+.title-2 {
+    font-size: 24px;
+    color: #646470;
+}
+
+.top-para {
+    font-size: 16px;
+    text-align: center;
+    width: 70%;
+}
+/**/
+
+
+@media screen and (min-width:768px) {
+    body {
+        margin: 2.5% 3.5%;
+    }
+    
+    .grid-container-1 {
+        display: inline-grid;
+        margin-top: 2.5%;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+    }
+    
+    .grid-item-1 {
+        padding: 20px;
+        font-size: 30px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .card-title {
+        color: #646470;
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    
+    .grid-container-2 {
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+    
+    .grid-item-2 {
+    
+        font-size: 30px;
+        align-items: center;
+    }
+    .super {
+        border-color: hsl(180, 62%, 55%);
+    }
+    
+    .team {
+        border-color: hsl(0, 78%, 62%);
+    
+    }
+    
+    .karma {
+        border-color: hsl(34, 97%, 64%);
+    }
+    
+    .cal {
+        border-color: hsl(212, 86%, 64%);
+    }
+    
+    img {
+        padding-right: 10px;
+        padding-left: 70%;
+    }
+    
+    
+    
+    .card-text {
+        width: 80%;
+        padding-bottom: 10px;
+    }
+    
+    #karma {
+        padding-top: 20px;
+    }
+    
+}
+/*
+@media screen and (max-width:319px) {
+    body {
+        margin: 7%;
+    }
+    
+    .grid-container-1 {
+        display: inline-grid;
+        margin-top: 2.5%;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+    }
+
+    .grid-item-1 {
+        padding: 20px;
+        font-size: 30px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .grid-container-2 {
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+
+    .grid-item-2 {
+
+        font-size: 30px;
+        align-items: center;
+    }
+
+    .card {
+        box-shadow: 5px 5px 5px 5px #e2e9f1;
+        padding: 25px;
+        border-radius: 7px;
+        border-top: 5px solid;
+    }
+
+    .card-title {
+        color: #646470;
+        font-size: 18px;
+        padding-bottom: 4px;
+    }
+
+    .card-text {
+        width: 90%;
+        padding-bottom: 10px;
+    }
+
+    img {
+        padding-right: 10px;
+        padding-left: 55%;
+        height: 50px;
+    }
+
+    #karma {
+        padding-top: 20px;
+    }
+
+    .super {
+        border-color: hsl(180, 62%, 55%);
+    }
+    
+    .team {
+        border-color: hsl(0, 78%, 62%);
+    
+    }
+    
+    .karma {
+        border-color: hsl(34, 97%, 64%);
+    }
+    
+    .cal {
+        border-color: hsl(212, 86%, 64%);
+    }
+    
+    img {
+        padding-right: 10px;
+        padding-left: 70%;
+    }
+    
+
+}
+*/
+
+@media screen and (min-width:200px) {
+    body {
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+    }
+
+    .title-1,
+    .title-2 {
+        font-size: 20px;
+    }
+
+    .top-para {
+        width: 80%;
+        margin-bottom: 60px;
+    }
+
+    .card {
+        box-shadow: 5px 5px 5px 5px #e2e9f1;
+        padding: 25px;
+        border-radius: 7px;
+        border-top: 5px solid;
+    }
+
+    .card-title {
+        color: #646470;
+        font-size: 18px;
+        padding-bottom: 4px;
+    }
+
+    .card-text {
+        width: 90%;
+        padding-bottom: 10px;
+    }
+
+    img {
+        padding-right: 10px;
+        padding-left: 80%;
+        height: 50px;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .super {
+        border-color: hsl(180, 62%, 55%);
+    }
+    
+    .team {
+        border-color: hsl(0, 78%, 62%);
+    
+    }
+    
+    .karma {
+        border-color: hsl(34, 97%, 64%);
+    }
+    
+    .cal {
+        border-color: hsl(212, 86%, 64%);
+    }
+    
+    img {
+        padding-right: 10px;
+        padding-left: 70%;
+    }
+    
+}
+
